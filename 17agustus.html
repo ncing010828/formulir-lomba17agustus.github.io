@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulir Lomba 17 Agustus</title>
+    <link rel="stylesheet" href="17agustus.css">
+    <script src="17agustus.js" defer></script>
+</head>
+
+<body>
+
+    <h1 align="center">Formulir Lomba 17 Agustus</h1>
+
+    <div id="ucapan" style="text-align:center; margin-bottom: 20px;"></div>
+
+    <form id="formLomba" onsubmit="return validasiForm()">
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="nisn">NOMOR TELFON:</label>
+        <input type="text" id="nisn" name="nisn" required>
+
+        <label for="email">Email Aktif:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="lomba">Pilih Lomba:</label>
+        <select id="lomba" name="lomba">
+      <option value="Balap Karung">Balap Karung</option>
+      <option value="Makan Kerupuk">Makan Kerupuk</option>
+      <option value="Tarik Tambang">Tarik Tambang</option>
+      <option value="Panjat Pinang">Panjat Pinang</option>
+    </select>
+
+        <button type="submit">Daftar Sekarang</button>
+    </form>
+
+</body>
+
+</html>
